@@ -1,0 +1,40 @@
+body {
+  background-color: rgba(103, 207, 255, 0.339);
+  box-sizing: border-box;
+  font-family: "Lucida Sans", sans-serif;
+}
+
+header {
+  text-align: center;
+}
+
+#task-input {
+  padding: 10px;
+}
+
+#add-btn {
+  height: 40px;
+  width: 60px;
+  background-color: rgba(103, 207, 255, 0.339);
+}
+
+.trashImg {
+  width: 13px;
+  height: auto;
+  float: right;
+}
+
+#list-container {
+  text-align: center;
+}
+
+#todo-list {
+  display: inline-block;
+  text-align: left;
+  width: 500px;
+  list-style: circle;
+}
+
+.toDoItem {
+  margin-top: 15px;
+}
